@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: default
 title: Home
 nav_order: 1
@@ -47,4 +47,4 @@ __Concern__{: style="color: #e26716"}
 
  __Swift__{: style="color: #00ffef"}
 
- -->
+
