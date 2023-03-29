@@ -16,8 +16,8 @@
 title: BY.IT BLOG
 description: develop Blog
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: " http://k2sungjin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: kkkkksungjin/k2sungjin.github.io # for github-metadata
+url: " http://kkkkksungjin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: kkkkksungjin/kkkkksungjin.github.io # for github-metadata
 
 permalink: pretty
 
@@ -131,8 +131,8 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: false # show or hide edit this page link
-gh_edit_link_text: "k2sungjin.github.io"
-gh_edit_repository: "https://github.com/kkkkksungjin/k2sungjin.github.io" # the github URL for your repo
+gh_edit_link_text: "kkkkksungjin.github.io"
+gh_edit_repository: "https://github.com/kkkkksungjin/kkkkksungjin.github.io" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
