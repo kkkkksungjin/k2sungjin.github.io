@@ -16,7 +16,7 @@
 title: BY.IT BLOG
 description: develop Blog
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: " http://kkkkksungjin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kkkkksungjin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: kkkkksungjin/kkkkksungjin.github.io # for github-metadata
 
 permalink: pretty
