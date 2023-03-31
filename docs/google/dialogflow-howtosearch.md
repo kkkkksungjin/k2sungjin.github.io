@@ -154,19 +154,19 @@ Webhook을 써서 Response를 커스텀 한다면 입맛에 맞는 데이터를 
 
 #### 아티스트 작곡/ 아티스트 작사 그룹핑으로 묶어서 한번에 받을수 없을까?
 
-<img src="{{ site.baseurl }}/assets/dialogflw_resource/grouping_0_information.png"  style="width: auto;"/>
+![](../../assets/images/dialogflw_resource/grouping_0_information.png)  <br/>
 
 먼저 작사, 작곡 특정 단어에 대한 키를 만듭니다. 
 
-<img src="{{ site.baseurl }}/assets/dialogflw_resource/grouping_1.png"  style="width: auto;"/>
+![](../../assets/images/dialogflw_resource/grouping_1.png)  <br/>
 
 그룹 엔티티를 만듭니다. 이때 동의어체크는 풀어두어야 합니다. 
 
-<img src="{{ site.baseurl }}/assets/dialogflw_resource/grouping_2.png"  style="width: auto;"/>
+![](../../assets/images/dialogflw_resource/grouping_2.png)  <br/>
 
 위와 같이, 아티스트:작사 또는 아티스트:작곡 으로 만들면 됩니다. 그외는 응용해서 할수 있을것 같네요~
 
-<img src="{{ site.baseurl }}/assets/dialogflw_resource/grouping_3_intent_trainring.png"  style="width: auto;"/>
+![](../../assets/images/dialogflw_resource/grouping_3_intent_trainring.png)  <br/>
 
 1. 그룹 엔티티를 만들고 나서 인텐트로 돌아와 트레이닝을 한번 시켜줍니다. 
 2. 엔티티를 만들고 나서 인텐트에 적용 되는 시간이 3~5분 정도 소요되기 때문에 어느 정도 대기를 하고 트레이닝을 시켜줍니다. 

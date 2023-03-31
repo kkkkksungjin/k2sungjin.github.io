@@ -25,7 +25,6 @@ permalink: /Google/Android/Rx
     <tr>
       <th style="text-align: left">리액티브 API</th>
       <th style="text-align: center">설명</th>
-
     </tr>
   </thead>
   <tbody>
@@ -33,23 +32,6 @@ permalink: /Google/Android/Rx
       <td style="text-align: left">RxLifecycle</td>
       <td style="text-align: left">RxJava를 사용하는 안드로이드 앱용 라이프 사이클 처리 API로서 
                    메모리 누수 관리에 사용할수 있다.</td>
-
-    </tr>
-    <tr>
-      <td style="text-align: left">cell4</td>
-      <td style="text-align: center">cell5</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td style="text-align: left">cell1</td>
-      <td style="text-align: center">cell2</td>
-
-    </tr>
-    <tr>
-      <td style="text-align: left">cell4</td>
-      <td style="text-align: center">cell5</td>
-
     </tr>
   </tbody>
 
