@@ -8,5 +8,5 @@ permalink: /Github
 
 # Github
 
-Web
+Github related information.
 {: .fs-6 .fw-300 }

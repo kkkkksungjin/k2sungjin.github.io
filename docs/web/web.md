@@ -8,5 +8,5 @@ permalink: /Web
 
 # Web
 
-Web
+Web related information.
 {: .fs-6 .fw-300 }
