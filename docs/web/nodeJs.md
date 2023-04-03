@@ -4,7 +4,6 @@ title: NodeJs
 nav_order: 1
 parent: Web
 has_children: true
-permalink: /Web/NodeJs
 ---
 
 # NodeJs

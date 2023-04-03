@@ -1,12 +1,11 @@
----
+<!-- ---
 layout: default
 title: Apple
 nav_order: 4
 has_children: true
-permalink: /Apple
 ---
 
 # Apple
 Apple related information.
 
-{: .fs-6 .fw-300 }
+{: .fs-6 .fw-300 } -->

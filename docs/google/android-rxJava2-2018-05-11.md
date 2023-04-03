@@ -4,7 +4,6 @@ title: Hello RxJava 2
 parent: Android
 grand_parent: Google
 nav_order: 3
-permalink: /Google/Android/RxJava4
 ---
 
 소개

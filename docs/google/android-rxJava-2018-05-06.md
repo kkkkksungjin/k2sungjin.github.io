@@ -4,7 +4,6 @@ title: Hello RxJava 1
 parent: Android
 grand_parent: Google
 nav_order: 2
-permalink: /Google/Android/RxJava1
 ---
 
 # RxJava [[http://reactivex.io](http://reactivex.io)]

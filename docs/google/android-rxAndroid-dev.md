@@ -4,7 +4,6 @@ title: Hello Rx
 parent: Android
 grand_parent: Google
 nav_order: 1
-permalink: /Google/Android/Rx
 ---
 
 # Rx [http://reactivex.io](http://reactivex.io)

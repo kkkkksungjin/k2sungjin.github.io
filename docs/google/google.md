@@ -3,7 +3,6 @@ layout: default
 title: Google
 nav_order: 3
 has_children: true
-permalink: /Google
 ---
 
 # Google

@@ -4,7 +4,6 @@ title: How to search another language?
 parent: DialogFlow
 grand_parent: Google
 nav_order: 3
-permalink: /Google/DialogFlow/HowtoSearchAnotherLanguage
 ---
 
 소개

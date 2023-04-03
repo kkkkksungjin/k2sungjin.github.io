@@ -4,7 +4,6 @@ title: How to Use
 parent: Blog
 grand_parent: Github
 nav_order: 1
-permalink: /Github/Blog/HowtoUse
 ---
 
 소개

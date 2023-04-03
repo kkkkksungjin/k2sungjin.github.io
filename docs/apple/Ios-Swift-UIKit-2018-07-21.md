@@ -1,10 +1,9 @@
----
+<!-- ---
 layout: default
 title: Swift Framework
 parent: IOS
 grand_parent: Apple
 nav_order: 2
-permalink: /Apple/IOS/SwiftFramework
 ---
 
 # Foundation, UiKit
@@ -49,4 +48,4 @@ Use predicates, expressions, and sort descriptors to examine elements in collect
 - Reference 
 
 <!-- ### UiKit -->
-
+ -->

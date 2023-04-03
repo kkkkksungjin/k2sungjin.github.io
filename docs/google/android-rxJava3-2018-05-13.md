@@ -4,7 +4,6 @@ title: Hello RxJava 3
 parent: Android
 grand_parent: Google
 nav_order: 4
-permalink: /Google/Android/RxJava3
 ---
 
 

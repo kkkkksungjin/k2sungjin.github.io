@@ -4,7 +4,6 @@ title: DialogFlow
 nav_order: 0
 parent: Google
 has_children: true
-permalink: /Google/DialogFlow
 ---
 
 # DialogFlow

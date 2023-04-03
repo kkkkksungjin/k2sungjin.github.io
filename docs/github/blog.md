@@ -4,7 +4,6 @@ title: Blog
 nav_order: 1
 parent: Github
 has_children: true
-permalink: /Github/Blog
 ---
 
 # Blog
