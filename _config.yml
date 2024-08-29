@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Bard BLOG
+title: DD BLOG
 description: develop Blog
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://kkkkksungjin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -98,9 +98,9 @@ mermaid:
 heading_anchors: true
 
 # Aux links for the upper right navigation
-aux_links:
-  "LINKE-DIN":
-    - "https://linkedin.com/in/erb-int"
+# aux_links:
+  # "LINKE-DIN":
+  #   - "https://linkedin.com/in/erb-int"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -110,9 +110,9 @@ aux_links_new_tab: false
 nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
-nav_external_links:
-  - title: linkedin
-    url: https://linkedin.com/in/erb-int
+# nav_external_links:
+#   - title: linkedin
+#     url: https://linkedin.com/in/erb-int
 
 # Footer content
 # appears at the bottom of every page's main content

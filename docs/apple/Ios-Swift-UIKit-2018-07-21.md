@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: default
 title: Swift Framework
 parent: IOS
@@ -48,4 +48,3 @@ Use predicates, expressions, and sort descriptors to examine elements in collect
 - Reference 
 
 <!-- ### UiKit -->
- -->
