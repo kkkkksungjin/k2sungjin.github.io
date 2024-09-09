@@ -8,5 +8,5 @@ has_children: true
 
 # Android
 
-Android related information.
+Android 관련정보.
 {: .fs-6 .fw-300 }

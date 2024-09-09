@@ -9,41 +9,201 @@ nav_order: 5
 
 소개
 ---
+~~~ java
+//Add lib
+naviagtion = "2.7.5"
+material-icons-extended = "1.5.4"
 
+[libraries]
+androidx-naviagtion = { group = "androidx.navigation", name = "navigation-compose", version.ref="naviagtion" }
+androidx-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref="material-icons-extended" }
+~~~
 
+![](../../assets/images/compose/login_screen.jpg)  
 
-이 페이지는 rxJava 2 버전을기반으로 설명하며, Scheduler를 공부하기 위해 정리했습니다. 
-<br/>
-<br/>
-<br/>
-
-사용 설명
+로그인화면
 <hr/>
 
-__기본__{: style="color: #1b557a"} <br >
-
-_newThread_{: style="color: #e26716"} -  구독자가 추가 될때 마다 스레드를 새로 생성한다는 의미를 갖습니다. 
-<br />
-
-
-_single_{: style="color: #e26716"} - 단일 스레드를 별도로 생성하여 구독작업합니다. 여러번 구독 요청이 와도 단일 스레드를 공통으로 사용하게 됩니다. <br >
-
-_computation_{: style="color: #e26716"} - 일반적인 계산 작업을 할때 사용하는 스케줄러 입니다. interval()함수는 기본적으로 computation스케줄에서 돌아갑니다. 
-CPU에 대응하여 계산하는 스케줄러입니다. io작업은 수행할수 없고, 프로세스 수만큼 스레드 풀을 증가 할수 있습니다. 
 ~~~ java
-//코드
-public static Observable<Long> interval(long perid, TimeUnit unit){
-    return interval(perid, period, unit, Scheduler.computation());
+@Composable
+fun LoginScreen(navController: NavController) {
+
+    var _email by remember { mutableStateOf("") }
+    var _password by remember { mutableStateOf("") }
+    var isPasswordVisible by remember { mutableStateOf(false) }
+
+    val textColor = Color.Black
+    Surface(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color.White)
+            .padding(padding32),
+        color = Color.White
+    ) {
+
+        Column(modifier = Modifier.fillMaxSize()) {
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(top = padding32)
+
+            ) {
+                Text(text = "LOGIN", fontWeight = FontWeight.Bold, fontSize = 32.sp)
+            }
+            Spacer(modifier = Modifier.padding(padding16))
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = Modifier.fillMaxSize(),
+                ) {
+                Column {
+                    OutlinedTextField(
+                        leadingIcon = {
+                            Icon(
+                                imageVector = Icons.Default.Email,
+                                contentDescription = "email",
+                                tint = textColor
+                            )
+                        },
+                        maxLines = 1,
+                        value = _email,
+                        onValueChange = { _email = it },
+                        label = { Text(text = "email") },
+                        modifier = Modifier
+                            .background(Color.White)
+                            .border(color = Color(0x005B96), width = 3.dp),
+
+                        )
+                    Spacer(modifier = Modifier.padding(padding8))
+                    OutlinedTextField(
+                        leadingIcon = {
+                            Icon(
+                                imageVector = Icons.Default.Lock,
+                                contentDescription = "password",
+                                tint = textColor
+                            )
+                        },
+                        trailingIcon = {
+                            IconButton(
+                                onClick = {
+                                    isPasswordVisible = !isPasswordVisible
+                                },
+                            ) {
+                                val visibleIconAndText =
+                                    Pair(first = Icons.Filled.Visibility, second = "VisibilityOn")
+                                val hiddenIconAndText = Pair(
+                                    first = Icons.Filled.VisibilityOff, second = "VisibilityOff"
+                                )
+
+                                val passwordVisibilityIconAndText =
+                                    if (isPasswordVisible) visibleIconAndText else hiddenIconAndText
+
+                                // Render Icon
+                                Icon(
+                                    imageVector = passwordVisibilityIconAndText.first,
+                                    contentDescription = passwordVisibilityIconAndText.second,
+                                    tint = Color.White
+                                )
+                            }
+                        },
+                        maxLines = 1,
+                        value = _password,
+                        onValueChange = { _password = it },
+                        label = { Text(text = "password") },
+                        modifier = Modifier
+                            .border(color = Color(0x005B96), width = 3.dp),
+                    )
+                    Spacer(modifier = Modifier.padding(2.dp))
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically
+                    ){
+                        Text(text = "Don't have an account yet?")
+                        TextButton(onClick = { navController.navigate(AppScreen.SIGNUP.name)}) {
+                            Text(text = "Signup", color = Color.Blue)
+                        }
+                    }
+
+                }
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Button(
+                        onClick = { onClickLogin() },
+                        modifier = Modifier
+                            .fillMaxWidth(0.7f)
+                            .height(50.dp)
+                    ) {
+                        Text(
+                            text = "Login",
+                            style = TextStyle(Color.White),
+                            fontWeight = FontWeight.Bold
+                        )
+                    }
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(padding8), verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Divider(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .weight(1f),
+                            thickness = 1.dp,
+                            color = GrayColor
+                        )
+                        Text(
+                            text = "Or",
+                            modifier = Modifier.padding(10.dp),
+                            fontSize = 20.sp
+                        )
+                        Divider(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .weight(1f),
+                            thickness = 1.dp,
+                            color = GrayColor
+                        )
+                    }
+                    Column {
+                        Button(
+                            onClick = { /*TODO*/ },
+                            colors = ButtonDefaults.buttonColors(Color.Transparent),
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
+                            Image(
+                                painter = painterResource(id = R.drawable.fb_svg),
+                                contentDescription = "fb Logo",
+                            )
+                        }
+                        Spacer(modifier = Modifier.width(10.dp))
+                        Button(
+                            onClick = { /*TODO*/ },
+                            colors = ButtonDefaults.buttonColors(Color.Transparent),
+                            modifier = Modifier.fillMaxWidth(),
+                        ) {
+                            Image(
+                                painter = painterResource(id = R.drawable.google_svg),
+                                contentDescription = "Google Logo",
+                            )
+                        }
+                        Spacer(modifier = Modifier.width(10.dp))
+                        Button(
+                            onClick = { /*TODO*/ },
+                            colors = ButtonDefaults.buttonColors(Color.Transparent),
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
+                            Image(
+                                painter = painterResource(id = R.drawable.apple_svg),
+                                contentDescription = "apple Logo",
+                            )
+                        }
+                        Spacer(modifier = Modifier.width(10.dp))
+                    }
+                }
+            }
+        }
+    }
 }
 ~~~
 <br/>
-
-_io_{: style="color: #e26716"} - 네트워크상의 요청, 파일 입출력, DB쿼리등을 처리 할때 사용하는 스케줄러 입니다.  
-<br >
-
-_trampoline_{: style="color: #e26716"} -  새로운 스레드를 생성하지 않고 현재 스레드에서 무한한 크기의 대기행령 큐를 생성하는 스케줄러입니다. 새로운 스레드를 생성하지 않는다는 것과 대기 행령을 자동으로 만들어 준다는 것이 뉴 스레드 스케줄러, 계산 스케줄러, IO스케줄러와 다릅니다. 
-
-<hr/>
-
-_subscribeOn_{: style="color: #e26716"} - subscribe() 데이터 발행할때 처리하는 스레드를 지정해줍니다.  <br >
-_observeOn_{: style="color: #e26716"} - Observable에서 데이터를 처리 할때 사용 되는 스레드를 지정해줍니다.<br >
