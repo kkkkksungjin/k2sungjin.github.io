@@ -1,12 +1,12 @@
 ---
 layout: default
-title: NodeJs
+title: flutter
 nav_order: 1
-parent: Web
+parent: cross-platform
 has_children: true
 ---
 
-# NodeJs
+# flutter
 
-NodeJs related information.
+flutter 관련정보.
 {: .fs-6 .fw-300 }

@@ -8,5 +8,5 @@ has_children: true
 
 # Blog
 
-Blog related information.
+Blog 관련정보.
 {: .fs-6 .fw-300 }
