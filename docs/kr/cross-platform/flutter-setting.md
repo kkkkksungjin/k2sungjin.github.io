@@ -8,5 +8,5 @@ grand_parent: cross-platform
 
 # flutter-Setting
 
-flutter-Setting related information.
+flutter-Setting 관련 정보.
 {: .fs-6 .fw-300 }

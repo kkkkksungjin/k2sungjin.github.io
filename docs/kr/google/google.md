@@ -7,5 +7,5 @@ has_children: true
 
 # Google
 
-Google related information.
+Google 관련정보.
 {: .fs-6 .fw-300 }

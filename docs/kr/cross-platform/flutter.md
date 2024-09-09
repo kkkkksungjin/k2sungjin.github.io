@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Blog
+title: flutter
 nav_order: 1
-parent: Github
+parent: cross-platform
 has_children: true
 ---
 
-# Blog
+# flutter
 
-Blog related information.
+flutter 관련정보.
 {: .fs-6 .fw-300 }

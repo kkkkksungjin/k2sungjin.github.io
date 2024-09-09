@@ -1,11 +1,12 @@
 ---
 layout: default
-title: flutter
+title: Blog
 nav_order: 1
+parent: Github
 has_children: true
 ---
 
-# flutter
+# Blog
 
-flutter related information.
+Blog 관련정보.
 {: .fs-6 .fw-300 }

@@ -7,5 +7,5 @@ has_children: true
 ---
 
 # IOS
-IOS related information.
+IOS 관련 정보.
 {: .fs-6 .fw-300 } 

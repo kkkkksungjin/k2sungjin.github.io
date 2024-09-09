@@ -7,5 +7,5 @@ has_children: true
 
 # Web
 
-Web related information.
+Web 관련정보.
 {: .fs-6 .fw-300 } -->
