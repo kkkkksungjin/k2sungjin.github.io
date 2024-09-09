@@ -6,7 +6,6 @@ grand_parent: Google
 nav_order: 5
 ---
 
-
 소개
 ---
 ~~~ java
@@ -19,10 +18,11 @@ androidx-naviagtion = { group = "androidx.navigation", name = "navigation-compos
 androidx-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref="material-icons-extended" }
 ~~~
 
-![](../../assets/images/compose/login_screen.jpg)  
 
 로그인화면
 <hr/>
+<img src="../../../../assets/images/compose/login_screen.jpg" width="350" height="550"/>
+<br/>
 
 ~~~ java
 @Composable
