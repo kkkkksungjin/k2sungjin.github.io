@@ -28,7 +28,7 @@ nav_order: 1
 
 ### 1. 새 저장소 만들기
 
-![](../../assets/images/git_blog/new_repository_name.png)  <br/>
+![](../../../../assets/images/git_blog/new_repository_name.png)  <br/>
 
 위 사진과 동일하게 자신의 블로그 네임을 레파지토리에 네임으로 적고 그뒤에 github.io를 같이 넣어 줍니다. 
 
@@ -36,7 +36,7 @@ kangsungjin.github.io로 쓰고 완료 합니다.
 
 ### 2. Jekyll 테마 선택하여 fork하기
 
-![](../../assets/images/git_blog/fork_point.png)  <br/>
+![](../../../../assets/images/git_blog/fork_point.png)  <br/>
 
 1. [Jekyll](http://jekyllthemes.org/)에 들어가 마음에 드는 테마를 클릭하여 들어갑니다. 
 2. Homepage를 클릭하고 들어가면, 해당 Github 레파지토리가 나옵니다. 
@@ -45,7 +45,7 @@ kangsungjin.github.io로 쓰고 완료 합니다.
 
 ### 3. _config.yml 설정하기
 
-![](../../assets/images/git_blog/config_site_setting.png)  <br/>
+![](../../../../assets/images/git_blog/config_site_setting.png)  <br/>
 
 __제목__{: style="color: #e26716"}
 
@@ -60,7 +60,7 @@ kangsungjin.github.io/{life}/{tags} <br>
 kangsungjin.github.io/{blog}/{tags} <br>
 위와 같이 적용됩니다. 
 
-![](../../assets/images/git_blog/config_build_setting.png)  <br/>
+![](../../../../assets/images/git_blog/config_build_setting.png)  <br/>
 
 __마크다운__{: style="color: #e26716"}
 
@@ -68,13 +68,13 @@ __마크다운__{: style="color: #e26716"}
 미묘하게 다르기때문에 고려해야 하는 부분입니다. 
 
 
-![](../../assets/images/git_blog/config_archive_set.png)  <br/>
+![](../../../../assets/images/git_blog/config_archive_set.png)  <br/>
 
 __포스팅 기본체계__{: style="color: #e26716"}
 Categories, Tags는 레이아웃 archive로 이루어졌고, 파라미터 링크는 /key/:page_name으로 구분합니다. 레이아웃은 _layouts폴더에 있으며, archive를 불러오는 것은 default.html이 담당합니다. 
 
 
-![](../../assets/images/git_blog/config_option_set.png)  <br/>
+![](../../../../assets/images/git_blog/config_option_set.png)  <br/>
 
 __댓글기능__{: style="color: #e26716"}
 
@@ -86,7 +86,7 @@ __구글 어널라이틱스__{: style="color: #e26716"}
 
 ### 오류 판단 하기 
 
-![](../../assets/images/git_blog/setting_github_page.png)  <br/>
+![](../../../../assets/images/git_blog/setting_github_page.png)  <br/>
 
 새로운 포스팅을 올리고 나서, 업데이트된 내용이 브라우저에서 볼수 없을때 우선 브라우저별 캐시를 한번 정리하고 봐야 합니다. 캐시 정리를 하고도 업데이트 내용을 볼수 없다면, Github Setting> Github Pages 영역을 잘 보셔야 합니다. 
 

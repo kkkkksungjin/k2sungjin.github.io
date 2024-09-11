@@ -20,10 +20,10 @@ nav_order: 3
 Android SDK [Sample](https://github.com/dialogflow/dialogflow-android-client)
 
 __Github__{: style="color: #e26716"}
-![](../../assets/images/dialogflw_resource/github_dialogflow_base.png)  <br/>
+![](../../../../assets/images/dialogflw_resource/github_dialogflow_base.png)  <br/>
 
 __Base/build.gradle__{: style="color: #e26716"}
-![](../../assets/images/dialogflw_resource/github_dialogflow_build.png)  <br/>
+![](../../../../assets/images/dialogflw_resource/github_dialogflow_build.png)  <br/>
 
 ~~~java
 dependencies {
@@ -34,7 +34,7 @@ dependencies {
 ~~~
 
 __apiAiSampleApp__{: style="color: #e26716"}
-![](../../assets/images/dialogflw_resource/github_dialogflow_config.png)  <br/>
+![](../../../../assets/images/dialogflw_resource/github_dialogflow_config.png)  <br/>
 
 ~~~java
     public static final String ACCESS_TOKEN = "{YOUR CLIENT ACCESS TOKEN}";
@@ -52,11 +52,11 @@ Dialogflow의 agent가 초기 설정된 kr이면 검색이 되지 않는 아주 
 
 
 _해결방법_
-![](../../assets/images/dialogflw_resource/langdiff/config.png)  <br/>
+![](../../../../assets/images/dialogflw_resource/langdiff/config.png)  <br/>
 - Dialogflow의 agent의 언어가 kr이면, agent jp를 만들어서 작업 하는게 제일 관리 하기 편하다고 생각이 든다. 
 - IMG 처럼 Config 파일에 ACCESS_TOKEN에 AGENT 각 TOKEN을 적어 넣어서 활용한다. 
 
-![](../../assets/images/dialogflw_resource/langdiff/AiService.png)  <br/>
+![](../../../../assets/images/dialogflw_resource/langdiff/AiService.png)  <br/>
 - 또는 Dialogflow의 agent는 kr그대로 두고 sample source에서 Google Recognition에 값만 kr, jp로 변경해서 사용하는것이다. 
 
 이방법은 검색은 되지만 TTS로 변경시 response가 한글로 오기 때문에 클라이언트에서 추가 작업을 해야 할 부분도 생긴다. 
@@ -99,7 +99,7 @@ _일본장르_
 
 
 ### ENTITY 추가 할때 주의 사항
-![](../../assets/images/dialogflw_resource/langdiff/entitys_add.png)  <br/>
+![](../../../../assets/images/dialogflw_resource/langdiff/entitys_add.png)  <br/>
 
 1."()" 괄호가 들어가면 오류가 난다. 
 2."" 쌍따움표로 문자열을 감싸야 한다. 그냥 따옴표 ''는 오류남 > ''를 수정하다가 I'm같은 값을 주의해서 변경 하도록한다. 
