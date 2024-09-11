@@ -1,6 +1,6 @@
 ---
 layout: default
-title: jetpack-compose1
+title: jetpack login ui
 parent: Android
 grand_parent: Google
 nav_order: 5
@@ -24,7 +24,7 @@ androidx-material-icons-extended = { group = "androidx.compose.material", name =
 <img src="../../../../assets/images/compose/login_screen.jpg" width="350" height="550"/>
 <br/>
 
-~~~ java
+<!-- ~~~ java
 @Composable
 fun LoginScreen(navController: NavController) {
 
@@ -205,5 +205,5 @@ fun LoginScreen(navController: NavController) {
         }
     }
 }
-~~~
+~~~ -->
 <br/>
