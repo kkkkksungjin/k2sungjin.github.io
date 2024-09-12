@@ -1,9 +1,9 @@
 ---
 layout: default
-title: weather
-parent: Android
-grand_parent: Google
-nav_order: 5
+title: WeatherApp test
+parent: android
+grand_parent: play-labs
+nav_order: 7
 ---
 
 소개

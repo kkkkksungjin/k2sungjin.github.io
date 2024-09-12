@@ -1,9 +1,9 @@
 ---
 layout: default
-title: jetpack login ui
-parent: Android
-grand_parent: Google
-nav_order: 5
+title: Btn test
+parent: android
+grand_parent: play-labs
+nav_order: 7
 ---
 
 소개

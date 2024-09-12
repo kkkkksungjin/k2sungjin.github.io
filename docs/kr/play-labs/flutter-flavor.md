@@ -3,7 +3,7 @@ layout: default
 title: Flavor Setting
 nav_order: 1
 parent: flutter
-grand_parent: cross-platform
+grand_parent: play-labs
 ---
 
 # Flavor Setting

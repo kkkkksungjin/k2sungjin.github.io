@@ -1,12 +1,12 @@
 ---
 layout: default
-title: flutter
+title: android
 nav_order: 1
-parent: cross-platform
+parent: play-labs
 has_children: true
 ---
 
-# flutter
+# Blog
 
-flutter 관련정보.
+Blog 관련정보.
 {: .fs-6 .fw-300 }
