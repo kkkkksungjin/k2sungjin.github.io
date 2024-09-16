@@ -1,6 +1,6 @@
 ---
 layout: default
-title: web
+title: web-nodejs
 nav_order: 3
 parent: play-labs
 has_children: true
