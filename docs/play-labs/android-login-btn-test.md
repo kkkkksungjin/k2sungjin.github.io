@@ -6,7 +6,7 @@ grand_parent: play-labs
 nav_order: 7
 ---
 
-소개
+説明
 ---
 ~~~ java
 //Add lib
@@ -19,7 +19,7 @@ androidx-material-icons-extended = { group = "androidx.compose.material", name =
 ~~~
 
 
-로그인화면
+画面
 <hr/>
 <img src="../../../../assets/images/compose/login_screen.jpg" width="350" height="550"/>
 <br/>

@@ -1,12 +1,12 @@
 ---
 layout: default
-title: android
+title: Android
 nav_order: 1
-parent: play-labs
+parent: Google
 has_children: true
 ---
 
-# Blog
+# Android
 
-Blog 관련정보.
+Android 関連情報.
 {: .fs-6 .fw-300 }

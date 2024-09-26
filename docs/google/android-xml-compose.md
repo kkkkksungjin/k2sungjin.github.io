@@ -6,7 +6,7 @@ grand_parent: Google
 nav_order: 5
 ---
 
-Android XML과 Jetpack Compose는 모두 안드로이드 UI를 개발하는 방법이지만, 접근 방식과 기능에서 큰 차이가 있습니다. 
+Android XMLと Jetpack Composeは 両方Android UIを開発する方法だけど, 機能に置いて違いがあり. 
 
 M __V__{: style="color:RED"} C <br/>
 M __V__{: style="color:RED"} P <br/>
@@ -258,9 +258,9 @@ Image(
     contentDescription = "Loaded image"
 )
 ~~~ 
-- Kotlin-first 라이브러리로, Compose와 자연스럽게 통합되어 있습니다.
-- Kotlin 코루틴을 사용하므로 비동기 이미지 로딩이 직관적이고 성능이 좋습니다.
-- 더 가볍고 빠른 초기화 속도를 제공하여 Compose 기반의 프로젝트에서 성능 이점이 있습니다.
-- Compose 환경에 맞게 더 간편하게 사용할 수 있는 API를 제공합니다.
+- Kotlin-firstライブラリで、Composeと自然に統合されています。
+- Kotlinコルーチンを使用するため、非同期の画像読み込みが直感的でパフォーマンスに優れています。
+- より軽量で、高速な初期化速度を提供し、Composeベースのプロジェクトでパフォーマンスの利点があります。
+- Compose環境に合わせて、より簡単に使用できるAPIを提供しています。
 <br/>
 

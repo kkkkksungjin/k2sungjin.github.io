@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Google
-nav_order: 3
+title: play-labs
+nav_order: 6
 has_children: true
 ---
 
-# Google
+# テストルーム
 
-Google 관련정보.
 {: .fs-6 .fw-300 }

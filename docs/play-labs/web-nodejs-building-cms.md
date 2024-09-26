@@ -10,8 +10,8 @@ grand_parent: play-labs
 <table rules="groups">
   <thead>
     <tr>
-      <th style="text-align: center">환경</th>
-      <th style="text-align: center">설명</th>
+      <th style="text-align: center">環境</th>
+      <th style="text-align: center">説明</th>
     </tr>
   </thead>
   <tbody>
@@ -24,16 +24,16 @@ grand_parent: play-labs
       <td style="text-align: left">javascript</td>
     </tr>
     <tr>
-      <td style="text-align: left">작업일</td>
+      <td style="text-align: left">作業日</td>
       <td style="text-align: left">1m 14days</td>
     </tr>
     <tr>
-      <td style="text-align: left">서비스</td>
-      <td style="text-align: left">점포 정산 시스템</td>
+      <td style="text-align: left">サービス</td>
+      <td style="text-align: left">店舗計算システム</td>
     </tr>
     <tr>
-      <td style="text-align: left">상세 기능</td>
-      <td style="text-align: left">회원가입, 회원관리, 데이터 업로드, 데이터 다운로드, 정산 태그 추가, 정산 합계 도출</td>
+      <td style="text-align: left">詳細機能</td>
+      <td style="text-align: left">新規会員, 会員管理, データ管理（アップデート, Excelダウンロード, データ変更、）, 精算合計の導出</td>
     </tr>
   </tbody>
 </table>
@@ -41,21 +41,21 @@ grand_parent: play-labs
 <table rules="groups">
   <thead>
     <tr>
-      <th style="text-align: center">환경</th>
-      <th style="text-align: center">설명</th>
+      <th style="text-align: center">環境</th>
+      <th style="text-align: center">説明</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center">로그인</td>
+      <td style="text-align: center">ログイン画面</td>
       <td style="text-align: left"><img src="../../../../assets/images/web-node/login_page.png" alt="1" width="500" height="600"></td>
     </tr>
     <tr>
-      <td style="text-align: center">데이터 등록</td>
+      <td style="text-align: center">データ登録画面</td>
       <td style="text-align: left"><img src="../../../../assets/images/web-node/data_update.png" alt="1" width="500" height="600"></td>
     </tr>
     <tr>
-      <td style="text-align: center">데이터 확인</td>
+      <td style="text-align: center">データ管理画面</td>
       <td style="text-align: left"><img src="../../../../assets/images/web-node/data_list_page.png" alt="1" width="500" height="600"></td>
     </tr>
   </tbody>

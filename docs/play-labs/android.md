@@ -1,12 +1,10 @@
 ---
 layout: default
-title: Android
+title: android
 nav_order: 1
-parent: Google
+parent: play-labs
 has_children: true
 ---
 
-# Android
-
-Android 관련정보.
+Android 個人プロジェクト.
 {: .fs-6 .fw-300 }
