@@ -29,7 +29,7 @@ nav_order: 7
     </tr>
     <tr>
       <td style="text-align: left">詳細機能</td>
-      <td style="text-align: left">一日天気予報</td>
+      <td style="text-align: left">一日天気予報、６時間・12時間ずつ更新機能</td>
     </tr>
     <tr>
       <td style="text-align: left">設定</td>
