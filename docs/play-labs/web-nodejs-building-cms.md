@@ -35,8 +35,13 @@ grand_parent: play-labs
       <td style="text-align: left">詳細機能</td>
       <td style="text-align: left">新規会員, 会員管理, データ管理（アップデート, Excelダウンロード, データ変更、）, 精算合計の導出</td>
     </tr>
+    <tr>
+      <td style="text-align: left">github</td>
+      <td style="text-align: left">https://github.com/dow-work/public_node_cms</td>
+    </tr>
   </tbody>
 </table>
+
 
 <table rules="groups">
   <thead>
