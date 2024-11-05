@@ -21,7 +21,7 @@ nav_order: 7
     </tr>
     <tr>
       <td style="text-align: left">作業日</td>
-      <td style="text-align: left">7days</td>
+      <td style="text-align: left">-days</td>
     </tr>
     <tr>
       <td style="text-align: left">サービス</td>

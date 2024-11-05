@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: Flavor Setting
 nav_order: 1
@@ -80,4 +80,4 @@ productFlavors{
 <br/>
 <br/>
 
-{: .fs-6 .fw-300 }
+{: .fs-6 .fw-300 } -->

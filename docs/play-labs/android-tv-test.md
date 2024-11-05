@@ -21,7 +21,7 @@ grand_parent: play-labs
     </tr>
     <tr>
       <td style="text-align: left">作業日</td>
-      <td style="text-align: left">14days</td>
+      <td style="text-align: left">-days</td>
     </tr>
     <tr>
       <td style="text-align: left">サービス</td>
