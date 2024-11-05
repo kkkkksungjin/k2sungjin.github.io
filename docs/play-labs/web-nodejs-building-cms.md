@@ -37,7 +37,7 @@ grand_parent: play-labs
     </tr>
     <tr>
       <td style="text-align: left">github</td>
-      <td style="text-align: left"><a href="https://github.com/dow-work/public_node_cms">node_cms</td>
+      <td style="text-align: left"><a href="https://github.com/dow-work/public_node_cms">node_cms</a></td>
     </tr>
   </tbody>
 </table>
