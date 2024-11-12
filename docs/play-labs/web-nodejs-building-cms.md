@@ -2,7 +2,7 @@
 layout: default
 title: Building a CMS
 nav_order: 1
-parent: web-nodejs
+parent: web
 grand_parent: play-labs
 ---
 
