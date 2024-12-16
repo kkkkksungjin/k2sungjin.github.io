@@ -99,7 +99,7 @@ grand_parent: Performance & Quality Management
 
 ---
 
-### **6. レポート確認ポイント**
+<!-- ### **6. レポート確認ポイント**
 
 #### **① カバレッジ率の一致確認**
 - 目標と実際のカバレッジ率を比較。  
@@ -127,6 +127,6 @@ grand_parent: Performance & Quality Management
 #### **Mockを活用して依存性を排除**
 - 外部APIやデータベース呼び出しをMockに置き換え、テスト範囲を拡大。  
 
----
+--- -->
 
 {: .fs-6 .fw-300 }
